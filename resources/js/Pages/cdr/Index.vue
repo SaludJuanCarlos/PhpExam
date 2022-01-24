@@ -202,32 +202,3 @@ export default {
 };
 
 </script>
-<style lang="scss">
-.custom-table {
-	border: 1px solid #9999;
-	border-radius: 4px;
-	color: #333;
-	overflow: auto;
-
-	b-table {
-		border-collapse: collapse;
-		width: 100.1%;
-		color: #333;
-
-		th {
-			position: sticky;
-			top: 0;
-			background: #ccc;
-			padding: 10px 5px;
-			text-align: left;
-			border-bottom: 1px solid #999;
-		}
-
-		td {
-			padding: 10px 5px;
-			text-align: left;
-		}
-	}
-}
-
-</style>
